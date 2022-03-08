@@ -1,9 +1,47 @@
 @font-face {
   font-family: 'MyFont';
   src: url(./nw-7.ttf);
+  // src: url(./JANCODE-nicWabun.ttf);
 }
 
-.barcode {
+.barcode-xx {
   font-family:'MyFont';
   font-size: xx-large;
+  text-align: center
+}
+
+.barcode-x {
+  font-family:'MyFont';
+  font-size: x-large;
+  text-align: center
+}
+
+.barcode-l {
+  font-family:'MyFont';
+  font-size: large;
+  text-align: center
+}
+
+.barcode-m {
+  font-family:'MyFont';
+  font-size: medium;
+  text-align: center
+}
+
+.barcode-s {
+  font-family:'MyFont';
+  font-size: small;
+  text-align: center
+}
+
+.barcode-xs {
+  font-family:'MyFont';
+  font-size: x-small;
+  text-align: center
+}
+
+.barcode-xxs {
+  font-family:'MyFont';
+  font-size: xx-small;
+  text-align: center
 }
