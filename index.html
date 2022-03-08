@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>NV-7</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+  <div class="nothing" id="val">
+    A00000001A
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <div class="barcode" id="bar-val">
+    A00000001A
+  </div>
+  <br/>
+  <hr/>
+  <br/>
+  <textarea></textarea>
+  <script>
+   var v = '';
+   for(let i=0; i<12; i++) {
+     v+=Math.floor( Math.random() * 10).toString()
+   }
+   document.getElementById('val').textContent = 'A'+ v + 'A';
+   document.getElementById('bar-val').textContent = 'A'+ v + 'A';
+  </script>
+</body>
+</html>

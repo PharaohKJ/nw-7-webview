@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(./nw-7.ttf);
+}
+
+.barcode {
+  font-family:'MyFont';
+  font-size: xx-large;
+}
